@@ -1,14 +1,16 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
-    "start":"node start.js"
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aakashdeveloper/March_React_Mrng.git"
+    "url": "git+https://github.com/Aakashdeveloper/create-node-app"
   },
   "keywords": [
     "Node",
@@ -19,14 +21,15 @@
   "author": "aakashdeveloper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aakashdeveloper/March_React_Mrng/issues"
+    "url": "https://github.com/Aakashdeveloper/create-node-app/issues"
   },
-  "homepage": "https://github.com/Aakashdeveloper/March_React_Mrng#readme",
+  "homepage": "https://github.com/Aakashdeveloper/create-node-app#readme",
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "babel-polyfill": "^6.26.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
   }
 }
