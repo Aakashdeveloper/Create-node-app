@@ -1,12 +1,13 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
     "start": "node start.js",
     "dev": "nodemon start.js",
-    "test": "mocha --timeout 10000"
+    "test": "mocha --timeout 10000",
+    "commit": "npx git-cz"
   },
   "repository": {
     "type": "git",
