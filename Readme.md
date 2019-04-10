@@ -2,6 +2,8 @@ This is the seed application for node js
 
 ## Available Scripts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Aakashdeveloper/create-node-app.svg)](https://greenkeeper.io/)
+
 In the project directory, you can run:
 >> npm install
 >> npm start
