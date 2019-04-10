@@ -1,7 +1,7 @@
 This is the seed application for node js
 
 ## Available Scripts
-
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Aakashdeveloper/create-node-app.svg)](https://greenkeeper.io/)
 
 In the project directory, you can run:
