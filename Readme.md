@@ -24,7 +24,7 @@ Added mongodb file with all
 Operation just call mongodb file where ever required
 
 ## Added view engine layer
->> added ejs script
+* added ejs script
 
 ## DeveloperLink
 > www.aakashhanda.me
