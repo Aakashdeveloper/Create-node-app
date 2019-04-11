@@ -1,6 +1,6 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
