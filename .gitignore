@@ -1,1 +1,15 @@
+*.log
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+build
+coverage
+data
+dump.rdb
+lib
 node_modules/
+report.*.json
+yarn.lock
