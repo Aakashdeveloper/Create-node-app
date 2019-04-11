@@ -1,6 +1,7 @@
 This is the seed application for node js
 
 ## Available Scripts
+[![current version](https://img.shields.io/npm/v/create-node-app.svg)](https://www.npmjs.com/package/create-node-app)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Aakashdeveloper/create-node-app.svg)](https://greenkeeper.io/)
 
