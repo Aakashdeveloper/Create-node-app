@@ -1,6 +1,6 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.21",
+  "version": "1.0.27",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
@@ -37,9 +37,5 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mongodb": "^3.2.3"
-  },
-  "bin": {
-    "create-node-app": "./cli.js"
   }
-
 }
