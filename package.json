@@ -1,6 +1,6 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.16",
+  "version": "1.0.21",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,10 @@
     "EJS"
   ],
   "author": "aakashdeveloper",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "bugs": {
     "url": "https://github.com/Aakashdeveloper/create-node-app/issues"
   },
@@ -34,5 +37,9 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mongodb": "^3.2.3"
+  },
+  "bin": {
+    "create-node-app": "./cli.js"
   }
+
 }
