@@ -2,6 +2,13 @@ import express from 'express';
 const app = express();
 const port = 7600;
 
+// Static file path
+app.use(express.static(__dirname+'/public'));
+// Html or view file
+app.set('views','./src/views');
+// template engine
+app.set('view engine','ejs');
+
 app.get('/',(req,res) => {
     res.send('<h1>On home page</h1>')
 });
