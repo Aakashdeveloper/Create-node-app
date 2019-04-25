@@ -1,25 +1,18 @@
 {
   "name": "@aakashdeveloper/create-node-app",
   "version": "1.0.33",
-  "description": "The Seed will help you build node app with es6 very quick",
+  "description": "Utility to create pre configured Node Js app. ",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
-    "dev": "nodemon start.js",
-    "test": "mocha --timeout 10000",
-    "commit": "npx git-cz"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aakashdeveloper/create-node-app"
   },
-  "keywords": [
-    "Node",
-    "Es6",
-    "Docker",
-    "babel",
-    "EJS"
-  ],
   "author": "aakashdeveloper",
   "license": "MIT",
   "bugs": {
@@ -27,12 +20,7 @@
   },
   "homepage": "https://github.com/Aakashdeveloper/create-node-app#readme",
   "dependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
-    "babel-polyfill": "^6.26.0",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "mongodb": "^3.2.3"
+    "inquirer": "^6.3.1",
+    "shelljs": "^0.8.3"
   }
 }
