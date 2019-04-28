@@ -34,6 +34,11 @@ Added mongodb file with all
 >> DELETE
 Operation just call mongodb file where ever required
 
+#Added Redis Sample code
+* Connect application with redis
+* Install redis server 
+* Sample code is in src/node-redis-sample.js
+
 ## Added view engine layer
 * added ejs script
 

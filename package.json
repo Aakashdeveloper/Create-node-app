@@ -1,6 +1,6 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.33",
+  "version": "1.0.41",
   "description": "The Seed will help you build node app with es6 very quick",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,9 @@
     "Es6",
     "Docker",
     "babel",
-    "EJS"
+    "EJS",
+    "Redis",
+    "MongoDB"
   ],
   "author": "aakashdeveloper",
   "license": "MIT",
@@ -26,6 +28,10 @@
     "url": "https://github.com/Aakashdeveloper/create-node-app/issues"
   },
   "homepage": "https://github.com/Aakashdeveloper/create-node-app#readme",
+  "bin": {
+    "create-node-app": "./bin/cli.js"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
@@ -33,6 +39,9 @@
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongodb": "^3.2.3"
+    "mongodb": "^3.2.3",
+    "redis": "^2.8.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
   }
 }
