@@ -1,13 +1,14 @@
 {
   "name": "@aakashdeveloper/create-node-app",
   "version": "1.0.41",
-  "description": "The Seed will help you build node app with es6 very quick",
+  "description": "Utility to create pre configured Node Js app. The Seed will help you build node app with es6 very quick",
+
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
-    "dev": "nodemon start.js",
-    "test": "mocha --timeout 10000",
-    "commit": "npx git-cz"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,8 @@
     "mongodb": "^3.2.3",
     "redis": "^2.8.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "inquirer": "^6.3.1",
+    "shelljs": "^0.8.3"
   }
 }
