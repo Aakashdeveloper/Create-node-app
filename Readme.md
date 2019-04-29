@@ -9,10 +9,10 @@ This is the seed application for node js
 
 ## How To Start
 Inside node_modules folder
-* globally install this module with npm "npm install -g @aakashdeveloper/create-node-app"
-* go to the directory where you want to generate the project files
-* run "generate" in shell/cmd and follow the instructions.
-* inside your newly created project folder run "npm start".
+* Globally install this module with npm "npm install -g @aakashdeveloper/create-node-app"
+* Go to the directory where you want to generate the project files
+* Run "generate" in shell/cmd and follow the instructions.
+* Inside your newly created project folder run "npm start".
 * Navigate to http://localhost:7600
 
 
