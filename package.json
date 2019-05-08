@@ -37,7 +37,7 @@
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongodb": "^3.2.3",
+    "mongodb": "3.2.3",
     "redis": "^2.8.0",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
