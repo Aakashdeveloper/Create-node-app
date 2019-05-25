@@ -1,6 +1,6 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "Utility to create pre configured Node Js app. The Seed will help you build node app with es6 very quick",
 
   "main": "index.js",
@@ -18,7 +18,7 @@
     "Node",
     "Es6",
     "Docker",
-    "babel",
+    "babel6",
     "EJS",
     "Redis",
     "MongoDB"
