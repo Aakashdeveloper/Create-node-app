@@ -41,7 +41,7 @@
     "redis": "^3.0.0",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
-    "inquirer": "^6.3.1",
+    "inquirer": "^7.0.7",
     "shelljs": "^0.8.3"
   }
 }
