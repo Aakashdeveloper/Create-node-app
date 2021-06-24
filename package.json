@@ -1,8 +1,7 @@
 {
   "name": "@aakashdeveloper/create-node-app",
-  "version": "1.0.56",
+  "version": "1.1.0",
   "description": "Utility to create pre configured Node Js app. The Seed will help you build node app with es6 very quick",
-
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

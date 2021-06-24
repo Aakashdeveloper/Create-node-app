@@ -42,6 +42,7 @@ Operation just call mongodb file where ever required
 
 ## Added view engine layer
 * added ejs script
+* added lint
 
 ## DeveloperLink
 > www.aakashhanda.me
